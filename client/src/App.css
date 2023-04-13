@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 2em;
+}
+
+.title{
+  font-size: 2.5em;
+ 
+  font-weight: 600;
+}
+.input-title{
+  font-size: 1.5em;
+}
+
+.submit-btn{
+  text-align: center;
+  background-color: blue;
+  color: white;
+  width: 10em;
+  border-radius: 2em;
+}
+.submit-btn:hover{
+  cursor: pointer;
+}
+input{
+  width: 30em;
+  height:2em;
+}
